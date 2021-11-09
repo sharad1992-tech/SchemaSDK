@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_group"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextThemeBold"
+            android:text="Group"
+            android:id="@+id/tv_group_label"
+            android:padding="@dimen/twelve_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/twelve_dp"
+            android:src="@drawable/down_arrow"
+            android:id="@+id/iv_arrow_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">CIS Contractor</string>
+    <string name="app_name_dev">CIS_DEV</string>
+    <string name="app_name_cd">CIS_CD</string>
+    <string name="app_name_qa">CIS_TEST</string>
+    <string name="app_name_uat">CIS_UAT</string>
+
+    <string name="com_auth0_domain">auth-stage.crawco.com</string>
+    <string name="com_auth0_domain_staging">auth-stage.indehire.com</string>
+    <string name="com_auth0_client_id">LDsjWlW1WYuvZcFCAF6nT3RKAkg3CQpg</string>
+    <string name="com_auth0_client_id_staging">nOSP7vnOsbgl4uG1B0phgIgmBA1UIzhI</string>
+
+    <string name="com_auth0_domain_cd">crawford-dev.auth0.com</string>
+    <string name="com_auth0_domain_dev">auth-dev.crawco.com</string>
+    <string name="com_auth0_client_id_cd">i3dXXzZNsIl4209aXHyJYocUWMhhuOff</string>
+
+    <string name="com_auth0_domain_prod">auth.crawco.com</string>
+    <string name="com_auth0_client_id_prod">61i8EpqPMCbofjT5gaq3i2ilpCi50pdL</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="sign_in">Login</string>
+    <string name="next">Save &amp; Next</string>
+    <string name="proceed_to_profile">Proceed to Profile</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or">Or</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="logout">logout</string>
+    <string name="sign_up">Sign up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="submit">Submit</string>
+    <string name="forgot_password_message">Please enter your registered email Address</string>
+    <string name="terms_and_conditions"><u>Terms &amp; Conditions.</u></string>
+    <string name="terms_agreement_msg">I agree to Crawford Inspection Services</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="personal_information_title">Personal Information</string>
+    <string name="email_verification_title">Email Verification</string>
+    <string name="dashboard_title">Dashboard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal_info_mandatory_sub_heading">Field marked with (<font color='#FF0000'>*</font>) are mandatory</string>
+    <string name="field_marked_with_are_mandatory_professional"><font color='#FF0000'>*</font>Selection here reflect on Specialities </string>
+    <string name="phone">Phone</string>
+    <string name="united_states">United States +1</string>
+    <string name="address">Address</string>
+    <string name="street_address_1">Street Address 1</string>
+    <string name="street_address_2">Street Address 2</string>
+    <string name="city">City</string>
+    <string name="select_industry">Select Industry</string>
+    <string name="select_service">Select Service</string>
+    <string name="select_type_of_service">Select Type of Service</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="zip">Zip</string>
+    <string name="hourly">Hourly:</string>
+    <string name="preferred_rate_type">Let carriers know your hourly rate for desk assignments<font color='#FF0000'>*</font></string>
+    <string name="per_claim_heading">Let carriers know your per claim rate for field assignments<font color='#FF0000'>*</font></string>
+    <string name="per_hour">Per Hour</string>
+    <string name="per_claim">Per Claim</string>
+    <string name="free">Free +</string>
+    <string name="of_gross_loss">% Of Gross Loss</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_ok">OK</string>
+    <string name="resend_email_message">Please enter your email address.We will send you an email to reset your password</string>
+    <string name="resend">Resend</string>
+
+
+    <string name="email_empty_error_msg">Please enter email</string>
+    <string name="email_invalid_error_msg">Please enter valid email</string>
+    <string name="password_empty_error_msg">Please enter Password</string>
+    <string name="confirm_password_empty_error_msg">Please Confirm Password</string>
+    <string name="password_not_matched">Password doesn\'t match</string>
+    <string name="email_successful_send_msg">An Email has been sent to your Email Id</string>
+    <string name="first_name_empty_error_msg">Please enter First Name</string>
+    <string name="last_name_empty_error_msg">Please enter Last Name</string>
+    <string name="password_invalid_error_msg">Password should have at least 10 characters with combination of upper case, lower case, number and special character</string>
+    <string name="agree_terms_and_condition_acceptance_msg">Please Agree Terms and conditions</string>
+    <string name="email_already_exist_msg">Email already Exist</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="phone_number_empty_error_msg">Please enter Phone No</string>
+    <string name="phone_number_invalid_error_msg">Please enter valid Phone No</string>
+    <string name="address1_empty_error_msg">Please enter Address1</string>
+    <string name="address2_empty_error_msg">Please enter Address2</string>
+    <string name="city_empty_error_msg">Please enter City</string>
+    <string name="state_empty_error_msg">Please select State</string>
+    <string name="zip_empty_error_msg">Please enter Zip</string>
+    <string name="valid_zip_empty_error_msg">Please enter valid Zip Code</string>
+    <string name="zip_invalid_error_msg">Please enter valid Zip</string>
+    <string name="jobtype_unchecke_error_msg">Please Select Job type</string>
+    <string name="hour_rate_empty_error_msg">Please enter Hour Rate</string>
+    <string name="perclaim_empty_error_msg">Please enter Per Claim Amount</string>
+    <string name="percentage_empty_error_msg">Please enter Percentage</string>
+    <string name="reference_empty_error_msg">Please enter Reference</string>
+    <string name="industry_empty_error_msg">Please select Industry</string>
+    <string name="service_empty_error_msg">Please Select Type of Service</string>
+    <string name="others_empty_error_msg">Please enter Comments</string>
+    <string name="others_equipment_error_msg">Please enter Other Equipment</string>
+    <string name="others_software_error_msg">Please enter Other Software</string>
+    <string name="please_select_state">Please Select State</string>
+    <string name="enter_ssn_number">Enter Social Security Number</string>
+    <string name="please_select_state_relocation_option">Please Select State Relocation Option</string>
+    <string name="please_select_crawford_emp_option">Please Select Crawford Employee Option</string>
+    <string name="please_enter_ssn_number">Please Enter SSN Number</string>
+    <string name="ssn_number_cannot_less_then_9_digit">SSN Number cannot be less then 9 digit</string>
+    <string name="auth_email_verification_msg">Please verify your email before logging in.</string>
+    <string name="personal_info_main_heading">Please complete the following form to get started:</string>
+    <string name="job_type">What type of work are you interested in receiving?</string>
+    <string name="reference">How did you hear about us?</string>
+    <string name="see_all_employment_histroy"><u>see all Employment History</u></string>
+    <string name="see_all_education"><u>see all Education</u></string>
+    <string name="ask_for_travel">How far are you willing to travel one \n way per assignment?</string>
+    <string name="question_willing_to_travel_other_state">Are there other states that you are willing to travel for assignments?</string>
+    <string name="are_you_crawford_employee">Are you a Crawford employee/adjuster? </string>
+    <string name="ssn_info">If you are already a Crawford employee we may not need to run a new criminal background check for you. Please provide your SSN so we can check if Crawford &amp; Company has a background check on file for you.</string>
+
+
+    // dialog titles
+    <string name="location_dialog_title">Select Location</string>
+    <string name="specialties_dialog_title">Select Specialties</string>
+    <string name="reference_dialog_title">Select Options</string>
+    <string name="state_dialog_title">Select State</string>
+    <string name="experience_year_dialog_title">Select Experience</string>
+    <string name="soft_knowledge_dialog_title">Select Software Knowledge</string>
+    <string name="certification_type_dialog_title">Select Certification Type</string>
+    <string name="language_dialog_title">Select</string>
+    <string name="state_license_info">Indehire display your adjuster licenses if you have lines of authority that allow you to work Auto or Property Claims</string>
+
+    // prelim post api success message
+    <string name="personal_info_success_msg">Personal Information Saved successfully</string>
+    <string name="professional_info_success_msg">Professional Information saved successfully</string>
+
+    // personal info tooltip msg
+    <string name="address_tooltip_msg">Your address helps us match you with claims and assignments in your area.CIS does not operate in California.</string>
+    <string name="job_type_tooltip_msg">Desk, Field or Both?</string>
+    <string name="hour_rate_heading_tooltip_msg">Carriers can search for Adjusters by rate type and pay you directly through IndeHire</string>
+    <!--<string name="hourly_tooltip_msg">Let Carriers know your hourly rate for desk assignments. IndeHire takes a 20% fee of work completed within the platform.</string>
+    <string name="per_claim_heading_tooltip_msg">Carriers can search for Adjusters by rate type and pay you directly through IndeHire</string>
+    <string name="per_claim_tooltip_msg">IndeHire takes a 20% fee of all work completed within the platform.For example: \$300 fee + 5% of Gross loss, on a \$1000 Gross Loss claim would pay you \$350, less IndeHire 20% fee</string>-->
+    <string name="select">Select</string>
+    <string name="comment">Comment</string>
+    <string name="dollar_sign">$</string>
+    <string name="zero">0</string>
+    <string name="zero_decimal">0.00</string>
+    <string name="desk">Desk</string>
+    <string name="field">Field</string>
+    <string name="phone_no_format">(xxx)xxx-xxxx</string>
+
+    //IndeHire Verification Checks
+
+    <string name="indehire_verfication_check">Verification Checks</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="insurance_verification">Insurance Verification</string>
+    <string name="npn_adjuster">NPN &amp; Adjuster State License Verification</string>
+    <string name="xactimate_configuration">Xactimate Configuration</string>
+    <string name="background_check">Background Check</string>
+    <string name="adjuster_agreement">Independent Contractor Agreement</string>
+    <string name="insurance_provide_name">Insurance Provider Name</string>
+    <string name="insurance_coverage_amount">Insurance Coverage Amount</string>
+    <string name="effective_date">Effective Date</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="certificate_of_insurance">Certificate of Insurance</string>
+    <string name="social_security_number">Social Security Number</string>
+    <string name="confirn_social_security_number">Confirm Social Security Number</string>
+    <string name="checking_this_checkbox_adjuster_agreement">Checking this checkbox is equivalent to a \n handwritten signature</string>
+    <string name="e_sign_meaasage">By initialing here, I acknowledge I have read the aforementioned paragraphs and agree with the Provision herein.</string>
+    //License Detail
+    <string name="appoinment_report_for_florida">Appoinment Report For Florida</string>
+    <string name="image_uploaded_successfully">Image Uploaded Successfully</string>
+    <string name="tool_tip_no_crawford_employee">The next step in the Background Check process requires you to complete
+                              an electronic consent form. We will email you a link to this form. Please check your email and complete this form as soon as you receive it. We are not removing items one by one.</string>
+
+    //account setting activity
+
+    <string name="personal_information">Personal Information</string>
+    <string name="insurance_information">Insurance Information</string>
+    <string name="insurance_provider">Insurance Provider</string>
+    <string name="coverage_amount">Coverage Amount</string>
+    <string name="setting_start_date">Issue Date</string>
+    <string name="setting_end_date">Expiration Date</string>
+    <string name="xactware">Xactware</string>
+    <string name="xactimate_id">Xactimate ID</string>
+    <string name="xactimate_key_code">Xactimate keycode</string>
+    <string name="xactimate_address">Xactimate Address</string>
+    //profile
+    <string name="update_your_title">Update your title here</string>
+
+
+    // nevigation menu
+
+    <string name="menu_about">About</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_help_support">Help &amp; Support</string>
+    <string name="menu_terms_condition">Terms &amp; Conditions</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="menu_logout">Logout</string>
+    <string name="bottom_menu_Home">Home</string>
+    <string name="bottom_menu_job">Jobs</string>
+    <string name="bottom_menu_assignments">Assignments</string>
+    <string name="bottom_menu_payments">Payments</string>
+    <string name="bottom_menu_report">Reports</string>
+    <string name="bottom_menu_report_title">QA Report</string>
+    <string name="bottom_menu_messages">Messages</string>
+    <string name="side_menu_footer">2020 IndeHire</string>
+
+    //Assignment Detail
+    <string name="view_message"><u>View Message</u></string>
+    <string name="assignment_terms_agreement_msg">I accept IndeHire Marketplace policies and Payment Terms.</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_reject">Reject</string>
+    //Assignment type
+
+    <string name="single_cliam">Single Cliam</string>
+    <string name="posted_assignment">Posted Assignment</string>
+
+    //Assignment Request Close
+    <string name="request_close">Request Close</string>
+    <string name="request_note">*Note: Your Contarct will be closed if the Carrier is agreed to close this.</string>
+    <string name="ask_for_request_close">What do you want to request close?</string>
+    <string name="ask_for_timesheet">Do you have a pending timesheet?</string>
+    <string name="click_submit_timesheet"><u>Click here to submit Timesheet</u></string>
+
+    //Assignment payment tooltip
+
+    <string name="total_due_tooltip">This is the total amount due to you, based on invoices submitted. Amount is subject to carrier approval.</string>
+    <string name="pending_tooltip">This amount has been approved by the carrier and payment is pending.</string>
+
+    <string name="notifications_admin_channel_name">InderHire Test Notification</string>
+    <string name="notifications_admin_channel_description">this is only for indehire testing notification purpose only</string>
+    <string name="SENDER_ID">1033936085370</string>
+
+    // Home Fragment
+    <string name="click_here"><u>Click Here</u></string>
+    <string name="click_here_to_set"><u>Click here to set</u></string>
+    <string name="to_view_edit_your_profile">To view and edit your profile</string>
+    <string name="inderhire_verificaion_check">IndeHire Verification Check</string>
+    <string name="reamaning_verificaion_check">Your Remaining Verification Check</string>
+    <string name="after_click_here_text">To View and edit your profile</string>
+    <string name="wecome_msg_0_to_90">You’re almost done! Please view your outstanding verification tasks below and complete them as soon as possible.</string>
+    <string name="wecome_msg_100_complete">Welcome to Crawford Inspection Services! Your profile is now complete! We will be updating this page soon with additional information and job opportunities.</string>
+
+    //job details
+
+    <string name="damage_verification_question">Does a repairability photo need to be taken ?</string>
+
+    //payment and tax
+    <string name="tax_information">Tax Information</string>
+    <string name="are_you_us_citizen">Are you US citizen?</string>
+    <string name="are_you_us_resident">Are you US resident?</string>
+    <string name="are_you_indi_business">Are you Individual or Business?</string>
+    <string name="leagal_name_show_tax_return">Legal Name shown on Tax Return</string>
+    <string name="tax_id">Tax ID</string>
+    <string name="save_button">Save</string>
+    <string name="confirm_button">Accept</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="i_certified">I Certifiy that all information is true.</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="account_type">Account Type</string>
+    <string name="routing_number">Routing Number</string>
+    <string name="confirm_routing_number">Confirm Routing Number</string>
+    <string name="account_number">Account Number</string>
+    <string name="confirm_account_number">Confirm Account Number</string>
+    <string name="follow_the_step_w8_tax_form">Follow the steps below to complete the W8 tax form.</string>
+    <string name="downloadand_fill_out_this_pdf">Download and fill out this PDF: </string>
+    <string name="email_the_pdf_to">Email the PDF to:</string>
+    <string name="email_pdf">support_crawfordinspections@us.crawco.com</string>
+
+    // Message Center
+
+    <string name="in_mail">InMail</string>
+    <string name="inbox">Inbox</string>
+    <string name="sent">Sent</string>
+    <string name="draft">Draft</string>
+    <string name="trash">Trash</string>
+    <string name="discard">Discard</string>
+    <string name="delete">Delete</string>
+    <string name="reply">Reply</string>
+    <string name="send">Send</string>
+
+    //Assignment
+    <string name="inspection_time">Inspection Time</string>
+    <string name="start_date">Start Date</string>
+    <string name="client_name">Posted By</string>
+    <string name="terminated_by">Terminated By</string>
+    <string name="terminated_reason">Terminated Reason</string>
+    <string name="location">Location</string>
+    <string name="order_information">Order Information</string>
+    <string name="assignment_id">Assignment ID</string>
+    <string name="loss_location">Loss Location</string>
+    <string name="requirement_type">Requirement Type</string>
+    <string name="property_type">Property Type</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="adjuster">Adjuster</string>
+    <string name="alternate_phone_no">Alternate Phone No.</string>
+    <string name="name">Name</string>
+    <string name="hover">Hover</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="start_inspection">Start Inspection</string>
+    <string name="details_and_instruction">Details and Instructions</string>
+    <string name="terminate">Terminate</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="Inspection_not_scheduled">Inspection not scheduled</string>
+    <string name="schedule_date_time_updated">Schedule date/time updated</string>
+    <string name="dismiss"><u>Dismiss</u></string>
+    <string name="camera_permission_msg">Crawford Inspection Services requires access to your camera so that you can take photos of property to fulfill inspection requirements.</string>
+    <string name="location_permission_msg">Please Allow Required permission</string>
+    <string name="internet_not_available_image">Internet not available. This image will be uploaded when you have internet access.</string>>
+    <string name="multiple_photos">Multiple Photos</string>>
+    <string name="required">required</string>
+    <string name="samsung">samsung</string>
+    <string name="looker_app">looker-app</string>
+    <string name="input">input</string>
+    <string name="hide">hide</string>
+    <string name="report">Report</string>
+    <string name="label">Label</string>
+    <string name="placeholder_text">Placeholder Text</string>
+    <string name="replace">replace</string>
+    <string name="property_true">true</string>
+    <string name="enter_valid_email">Please enter valid email</string>
+    <string name="can_not_contain_special_charecters">Cannot contain special characters</string>
+    <string name="please_enter_valid_address">Please enter valid address</string>
+    <string name="must_be_a_phone_number">Must Be a Phone Number</string>
+    <string name="please_enter_valid_reference_no">Please enter valid Reference No</string>
+    <string name="include_description">Include Description</string>
+
+
+
+    //payment
+    <string name="select_account_type">Please select account type</string>
+    <string name="account_number_length_error_msg">Account Number cannot be less than 5 digits</string>
+    <string name="please_enter_routing_number">Please enter Routing Number</string>
+    <string name="please_confirm_routing_number">Please confirm Routing Number</string>
+    <string name="please_enter_account_number">Please enter Account Number</string>
+    <string name="please_confirm_account_number">Please confirm Account Number</string>
+    <string name="account_number_mismatch">Account Number mismatch</string>
+    <string name="routing_number_mismatch">Routing Number mismatch</string>
+
+
+    <string name="no_data_found">No Data Found</string>
+    <string name="unsave_msg">You have unsaved changes, do you want to stay on the page?</string>
+    <string name="save_msg">Changes saved</string>
+    <string name="unsave_label">Unsaved Changes</string>
+
+    // accept job alert dialog
+    <string name="job_detail_accept_job_msg">You are about to accept this assignment. You will need to report to the listed location at the assigned date and time. Click Confirm to accept this job.</string>
+    <string name="job_detail_confirm">Confirm</string>
+    <string name="job_detail_cancel">Cancel</string>
+    <string name="specialities">Specialities</string>
+    <string name="distance">Distance</string>
+    <string name="open_hover">Open Hover</string>
+    <string name="update_downloaded">An update has just been downloaded</string>
+
+    // permission
+    <string name="permission_request_msg">Please Allow Required permission</string>
+    <string name="permission_msg"><![CDATA[You have denied permissions to the app. Please allow all permissions at [Setting] > [Permissions] screen]]></string>
+    <string name="positive_button_label">Ok</string>
+    <string name="negative_button_label">No</string>
+    <string name="redirect_to_setting_msg">Go to Settings</string>
+
+    //image description
+
+    <string name="please_enter_image_description">Please Enter Image Description</string>
+    <string name="add_description_of_image">Add a description of image</string>
+    <string name="update_description_of_image">Update a description of image</string>
+
+    //NewRelic key
+
+    <string name="new_relic_staging_key">AAc7590a32406a9fc5d2220c25fa42c3c92505d558-NRMA</string>
+    <string name="new_relic_prod_key">AA55da609787d2834fc531a541dcdebc5cd166f270-NRMA</string>
+</resources>
